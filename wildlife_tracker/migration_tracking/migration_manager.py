@@ -60,5 +60,7 @@ class MigrationManager:
     def get_migrations(self) -> list[Migration]:
         pass
 
+    def schedule_migration(migration_path: MigrationPath) -> None:
+        pass
 
 

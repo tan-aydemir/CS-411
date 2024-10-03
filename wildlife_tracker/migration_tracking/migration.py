@@ -21,9 +21,6 @@ class Migration:
         self.status = status
         self.duration = duration
 
-    def schedule_migration(migration_path: MigrationPath) -> None:
-        pass
-
     def update_migration_details(self, **kwargs: Any) -> None:
         pass
 
